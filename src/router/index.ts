@@ -32,6 +32,14 @@ export const routes = [
         meta: {
             title: '导入 JSON'
         }
+    },
+    {
+        path: '/glob-sync',
+        name: 'GlobSync',
+        component: () => import('../views/glob-sync.vue'),
+        meta: {
+            title: 'Glob （同步）导入'
+        }
     }
 ]
 
