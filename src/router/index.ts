@@ -24,6 +24,14 @@ export const routes = [
         meta: {
             title: 'Raw'
         }
+    },
+    {
+        path: '/json',
+        name: 'JSON',
+        component: () => import('../views/json.vue'),
+        meta: {
+            title: '导入 JSON'
+        }
     }
 ]
 
