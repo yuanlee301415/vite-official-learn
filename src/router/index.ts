@@ -16,6 +16,14 @@ export const routes = [
         meta: {
             title: 'Test'
         }
+    },
+    {
+        path: '/raw',
+        name: 'Raw',
+        component: () => import('../views/raw.vue'),
+        meta: {
+            title: 'Raw'
+        }
     }
 ]
 
