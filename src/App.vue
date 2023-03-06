@@ -12,6 +12,8 @@
 
 <script setup lang="ts">
 import { routes } from "./router";
+import inlineCss from './assets/inline.css?inline'
+console.log('inlineCss:', inlineCss)
 </script>
 
 <style scoped>
