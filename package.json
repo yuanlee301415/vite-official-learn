@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 3500",
+    "force": "vite --port 3500 --force",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
