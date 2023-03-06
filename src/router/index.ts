@@ -40,6 +40,14 @@ export const routes = [
         meta: {
             title: 'Glob （同步）导入'
         }
+    },
+    {
+        path: '/glob-async',
+        name: 'GlobAsync',
+        component: () => import('../views/glob-async.vue'),
+        meta: {
+            title: 'Glob （异步）导入'
+        }
     }
 ]
 
