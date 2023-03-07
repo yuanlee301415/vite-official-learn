@@ -11,13 +11,16 @@
 </template>
 
 <script setup lang="ts">
-import { routes } from "./router";
+import {routes} from "./router";
 import inlineCss from './assets/inline.css?inline'
+
 console.log('inlineCss:', inlineCss)
 </script>
 
-<style scoped>
-nav a {
-  margin: 0 10px;
+<style scoped lang="scss">
+nav {
+  a {
+    margin: 0 10px;
+  }
 }
 </style>
